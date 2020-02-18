@@ -1,0 +1,14 @@
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\bin\Debug\netstandard2.0\MapEtNote.deps.json
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\bin\Debug\netstandard2.0\MapEtNote.dll
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.csprojAssemblyReference.cache
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.AssemblyInfoInputs.cache
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.AssemblyInfo.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\bin\Debug\netstandard2.0\ref\MapEtNote.dll
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\bin\Debug\netstandard2.0\MapEtNote.pdb
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.dll
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\ref\MapEtNote.dll
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.pdb
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs

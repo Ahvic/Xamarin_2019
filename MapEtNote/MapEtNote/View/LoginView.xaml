@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MapEtNotes.Models"
+             x:Class="MapEtNotes.View.LoginView">
+
+    <ContentPage.BindingContext>
+        <local:LoginModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Username"/>
+            
+            <Entry x:Name="usernameEntry" 
+                   Text="{Binding Username}" 
+                   Placeholder="username"/>
+            
+            <Label Text="Password"/>
+            
+            <Entry x:Name="passwordEntry" 
+                   Text="{Binding Password}" 
+                   IsPassword="True"/>
+
+            <Button Text="Connexion" 
+                    Command="{Binding SubmitCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
