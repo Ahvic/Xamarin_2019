@@ -1,4 +1,5 @@
-﻿using MapEtNotes.View;
+﻿using MapEtNote.View;
+using MapEtNotes.View;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,7 +11,7 @@ namespace MapEtNote
         public App()
         {
             InitializeComponent();
-
+            
             MainPage = new LoginView();
         }
 

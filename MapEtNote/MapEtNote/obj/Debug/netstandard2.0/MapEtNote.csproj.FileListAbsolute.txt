@@ -12,3 +12,6 @@ C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\MapEtNote.pdb
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\ListePlaceView.xaml.g.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\AjouterPlaceView.xaml.g.cs
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote\obj\Debug\netstandard2.0\View\RegisterView.xaml.g.cs

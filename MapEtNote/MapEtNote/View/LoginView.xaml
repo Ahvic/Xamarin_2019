@@ -24,6 +24,10 @@
 
             <Button Text="Connexion" 
                     Command="{Binding SubmitCommand}"/>
+
+            <Button Text="S'inscrire" 
+                    Command="{Binding SubmitRegister}"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

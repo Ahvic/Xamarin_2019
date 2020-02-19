@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Input;
-using System.Net.Http;
-using System.Net.Http.Headers;
 using Xamarin.Forms;
 using Storm.Mvvm;
 using Newtonsoft.Json;
 using MapAndNotes.Dtos;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
-using MapEtNote;
 using MonkeyCache.SQLite;
 using MapEtNote.RestAPI;
+using MapEtNote;
+using MapEtNote.View;
 
 namespace MapEtNotes.Models
 {
@@ -20,6 +15,7 @@ namespace MapEtNotes.Models
     {
         private string _username;
         private string _password;
+
         public string Username
         {
             get { return _username; }
@@ -33,13 +29,21 @@ namespace MapEtNotes.Models
 
         public ICommand SubmitCommand { get; set; }
 
+        public ICommand SubmitRegister { get; set; }
+
         public LoginModel()
         {
             SubmitCommand = new Command(OnSubmit);
+            SubmitRegister = new Command(LaunchRegisterAsync);
             Barrel.ApplicationId = "coucou";
         }
 
-        public async void OnSubmit()
+        private async void LaunchRegisterAsync() 
+        {
+            await App.Current.MainPage.Navigation.PushModalAsync(new RegisterView());
+        }
+
+        private async void OnSubmit()
         {
             if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
             {
@@ -54,11 +58,10 @@ namespace MapEtNotes.Models
 
                 if (await RestAPI.LoginRequest(user))
                 {
-                    await Application.Current.MainPage.DisplayAlert("Alerte", "Login correct", "OK");
+                    //await Application.Current.MainPage.DisplayAlert("Alerte", "Login correct", "OK");
+                    //await Application.Current.MainPage.DisplayAlert("Alerte", "Bonjour " + Barrel.Current.Get<string>(key: "refreshToken"), "OK");
 
-                    await Application.Current.MainPage.DisplayAlert("Alerte", "Bonjour " + Barrel.Current.Get<string>(key: "refreshToken"), "OK");
-
-                    //Ouverture fenêtre
+                    await App.Current.MainPage.Navigation.PushModalAsync(new ListePlaceView());
                 }
                 else 
                 {

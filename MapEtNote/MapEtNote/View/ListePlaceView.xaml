@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MapEtNote.Models"
+             x:Class="MapEtNote.View.ListePlaceView">
+
+    <ContentPage.BindingContext>
+        <local:ListeModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Ajouter un nouveau lieu" Command="{Binding AjouterCommand}"/>
+            <Button Text="Rafraichir" Command="{Binding RefreshCommand}"/>
+
+            <ListView ItemsSource="{Binding Places}"
+                CachingStrategy="RecycleElement"
+                HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5">
+                                <Label Text="{Binding Title}" FontSize="Medium"/>
+                                <Label Text="{Binding Description}" FontSize="Small"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

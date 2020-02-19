@@ -497,3 +497,4 @@ C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote.Android\ob
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\IndicatorViewRenderer.java
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ScrollLayoutManager.java
 C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\SwipeViewRenderer.java
+C:\Users\Fixe-Antoine\Documents\Xamarin\MapEtNote\MapEtNote\MapEtNote.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MapEtNote.ViewModel"
+             x:Class="MapEtNote.View.RegisterView">
+
+    <ContentPage.BindingContext>
+        <local:RegisterModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+      <StackLayout>
+            <Label Text="Email"/>
+
+            <Entry x:Name="emailEntry" 
+                   Text="{Binding Email}" 
+                   Placeholder="email"/>
+
+            <Label Text="First name"/>
+
+            <Entry x:Name="fnameEntry" 
+                   Text="{Binding FirstName}" 
+                   Placeholder="First name"/>
+
+            <Label Text="Last name"/>
+
+            <Entry x:Name="lnameEntry" 
+                   Text="{Binding LastName}" 
+                   Placeholder="Last name"/>
+
+            <Label Text="Password"/>
+
+            <Entry x:Name="passwordEntry" 
+                   Text="{Binding Password}" 
+                   Placeholder="password"/>
+
+            <Button Text="Envoyer" 
+                    Command="{Binding SubmitCommand}"/>
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

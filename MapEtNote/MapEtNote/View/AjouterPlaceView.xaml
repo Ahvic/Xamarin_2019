@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MapEtNote.ViewModel"
+             x:Class="MapEtNote.View.AjouterPlaceView">
+
+    <ContentPage.BindingContext>
+        <local:AjoutPlaceModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+      <StackLayout>
+            <Label Text="Titre"/>
+
+            <Entry x:Name="titleEntry" 
+                   Text="{Binding Title}" 
+                   Placeholder="titre"/>
+
+            <Label Text="Decription"/>
+
+            <Entry x:Name="descriptionEntry" 
+                   Text="{Binding Description}" 
+                   Placeholder="description"/>
+
+            <Button Text="Poster" 
+                    Command="{Binding PosterCommand}"/>
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
